@@ -2,16 +2,10 @@
 $upperBreak: 1150px;
 $lowerBreak: 767px;
 $bgColor: rgba(18, 18, 18, 1);
-$color-1: rgb(185, 126, 67);
-$color-2: rgb(77, 52, 35);
-$color-3: rgb(166, 123, 91);
-$color-4: rgb(107, 76, 55);
-$color-5: rgb(211, 163, 116);
-$color-1-tran: rgba(185, 126, 67, 0.8);
-$color-2-tran: rgba(77, 52, 35, 0.8);
-$color-3-tran: rgba(166, 123, 91, 0.8);
-$color-4-tran: rgb(107, 76, 55, 0.8);
-$color-5-tran: rgba(211, 163, 116, 0.8);
+$brown: #96590a;
+$green: #47960a;
+$blue: #0a4796;
+$purple: #590a96;
 
 html {
   width: 100%;
@@ -29,7 +23,7 @@ body {
   width: 0.5rem;
 
   &-thumb {
-    background: $color-3;
+    background: $green;
     border-radius: 0.4rem;
     height: 20px;
   }
